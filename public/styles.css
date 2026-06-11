@@ -232,16 +232,19 @@ a { color: inherit; text-decoration: none; }
 .footer {
   border-top: 1px solid var(--rule);
   overflow: hidden;
+  position: relative;
 }
 .footer-mark {
-  font-size: clamp(6rem, 24vw, 24rem);
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 0.78;
+  font-size: clamp(5rem, 20vw, 20rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.8;
   text-align: center;
-  color: #161616;
+  color: #151515;
   user-select: none;
-  transform: translateY(0.12em);
+  transform: translateY(0.08em);
+  position: relative;
+  z-index: 1;
 }
 .footer-meta {
   display: flex;
@@ -250,6 +253,9 @@ a { color: inherit; text-decoration: none; }
   border-top: 1px solid var(--rule);
   font-size: 0.8rem;
   color: var(--dim);
+  position: relative;
+  z-index: 2;
+  background: var(--bg);
 }
 .footer-meta a { border-bottom: 1px solid var(--rule); transition: color 0.2s; }
 .footer-meta a:hover { color: var(--ink); }
