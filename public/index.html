@@ -3,143 +3,119 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebX — Websites, Ads, Reels, Chatbots & Animation</title>
-  <meta name="description" content="WebX helps businesses grow with website building, Facebook & Google Ads, reels, reviews management, WhatsApp chatbots and animation." />
+  <title>WebX</title>
+  <meta name="description" content="WebX builds websites, runs your ads, and automates your WhatsApp — so customers find you, trust you, and buy from you." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="container nav-inner">
-      <a href="#" class="logo">Web<span>X</span></a>
-      <nav class="nav-links" id="navLinks">
-        <a href="#services">Services</a>
-        <a href="#why">Why Us</a>
-        <a href="#process">Process</a>
-        <a href="#contact">Contact</a>
-        <a href="https://wa.me/919528725759" class="btn btn-small" target="_blank" rel="noopener">Let's Talk</a>
-      </nav>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
+  <header class="nav">
+    <a class="wordmark" href="#top">WEBX<sup>®</sup></a>
+    <a class="nav-cta" href="https://wa.me/919528725759?text=Hi%20WebX" target="_blank" rel="noopener">Start a project ↗</a>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="glow glow-1"></div>
-    <div class="glow glow-2"></div>
-    <div class="container hero-inner">
-      <p class="hero-badge reveal">🚀 Your Digital Growth Partner</p>
-      <h1 class="reveal">We Build Brands That<br /><span class="gradient-text">Win Online</span></h1>
-      <p class="hero-sub reveal">Websites. Ads. Reels. Chatbots. Animation.<br />Everything your business needs to grow — under one roof.</p>
-      <div class="hero-actions reveal">
-        <a href="https://wa.me/919528725759" class="btn btn-primary" target="_blank" rel="noopener">Chat on WhatsApp</a>
-        <a href="#services" class="btn btn-ghost">Explore Services</a>
-      </div>
-      <div class="hero-stats reveal">
-        <div><strong>50+</strong><span>Projects Delivered</span></div>
-        <div><strong>6</strong><span>Core Services</span></div>
-        <div><strong>24/7</strong><span>Support</span></div>
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>
+        <span class="line">Make your business</span>
+        <span class="line">impossible<span class="accent">*</span></span>
+        <span class="line">to ignore.</span>
+      </h1>
+      <p class="hero-note"><span class="accent">*</span>Websites, ads, reels, reviews, chatbots, animation. One team, no agencies-speak, no retainers you don't understand.</p>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>WEBSITES — ADS — REELS — REVIEWS — CHATBOTS — ANIMATION — </span>
+        <span>WEBSITES — ADS — REELS — REVIEWS — CHATBOTS — ANIMATION — </span>
       </div>
     </div>
-  </section>
 
-  <!-- Services -->
-  <section class="section" id="services">
-    <div class="container">
-      <p class="section-tag reveal">What We Do</p>
-      <h2 class="reveal">Services that <span class="gradient-text">move the needle</span></h2>
-      <div class="grid services-grid">
-        <div class="card reveal">
-          <div class="card-icon">🌐</div>
-          <h3>Website Building</h3>
-          <p>Fast, modern, mobile-first websites that convert visitors into customers. From landing pages to full business sites.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">📈</div>
-          <h3>Facebook & Google Ads</h3>
-          <p>Targeted ad campaigns that bring real leads and sales — managed end to end with transparent reporting.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">🎬</div>
-          <h3>Reels & Short Videos</h3>
-          <p>Scroll-stopping reels and short-form content that grow your reach and keep your brand trending.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">⭐</div>
-          <h3>Reviews Management</h3>
-          <p>Build trust with more 5-star reviews. We help you collect, manage and showcase customer feedback.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">💬</div>
-          <h3>WhatsApp Chatbots</h3>
-          <p>Automate replies, capture leads and support customers 24/7 with smart WhatsApp chatbots.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">✨</div>
-          <h3>Animation</h3>
-          <p>Eye-catching explainer videos, logo animations and motion graphics that bring your brand to life.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Services index -->
+    <section class="services">
+      <p class="kicker">What we do</p>
+      <ul class="index">
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">01</span>
+            <span class="name">Websites</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>A site that loads fast and sells faster. Built mobile-first, found on Google, live in days — not months.</p></div>
+        </li>
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">02</span>
+            <span class="name">Google &amp; Meta Ads</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>Campaigns measured in calls and orders, not impressions. You see exactly where every rupee goes.</p></div>
+        </li>
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">03</span>
+            <span class="name">Reels &amp; Short Video</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>Content people actually stop scrolling for. Shot, cut and posted on a schedule that keeps you visible.</p></div>
+        </li>
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">04</span>
+            <span class="name">Reviews</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>More five-star proof, less chasing customers for it. We set up the system; the reviews follow.</p></div>
+        </li>
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">05</span>
+            <span class="name">WhatsApp Chatbots</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>Replies at 2am without you being awake. Capture leads, answer FAQs, take bookings — automatically.</p></div>
+        </li>
+        <li class="index-row">
+          <button class="index-head" aria-expanded="false">
+            <span class="num">06</span>
+            <span class="name">Animation</span>
+            <span class="plus">+</span>
+          </button>
+          <div class="index-body"><p>Logo stings, explainers and motion graphics that make your brand stick in people's heads.</p></div>
+        </li>
+      </ul>
+    </section>
 
-  <!-- Why Us -->
-  <section class="section section-alt" id="why">
-    <div class="container">
-      <p class="section-tag reveal">Why WebX</p>
-      <h2 class="reveal">One team. <span class="gradient-text">Every digital skill.</span></h2>
-      <div class="grid why-grid">
-        <div class="why-item reveal"><span>⚡</span><div><h4>Fast Delivery</h4><p>Quick turnarounds without compromising on quality.</p></div></div>
-        <div class="why-item reveal"><span>💰</span><div><h4>Affordable Pricing</h4><p>Plans built for small businesses and startups.</p></div></div>
-        <div class="why-item reveal"><span>🎯</span><div><h4>Results Focused</h4><p>We care about leads, sales and growth — not just looks.</p></div></div>
-        <div class="why-item reveal"><span>🤝</span><div><h4>Dedicated Support</h4><p>Direct WhatsApp access to our team, anytime.</p></div></div>
-      </div>
-    </div>
-  </section>
+    <!-- How -->
+    <section class="how">
+      <p class="kicker">How it works</p>
+      <p class="how-text">Message us. Get a plan and a price within 24 hours. We build, you approve, it ships. <span class="dim">No 40-page proposals. No surprise invoices.</span></p>
+    </section>
 
-  <!-- Process -->
-  <section class="section" id="process">
-    <div class="container">
-      <p class="section-tag reveal">How It Works</p>
-      <h2 class="reveal">From idea to <span class="gradient-text">launch</span> in 4 steps</h2>
-      <div class="grid process-grid">
-        <div class="step reveal"><div class="step-num">01</div><h4>Tell Us Your Goal</h4><p>Message us on WhatsApp and share what you need.</p></div>
-        <div class="step reveal"><div class="step-num">02</div><h4>Get a Plan</h4><p>We send a clear plan with pricing and timeline.</p></div>
-        <div class="step reveal"><div class="step-num">03</div><h4>We Build & Launch</h4><p>Our team designs, builds and launches your project.</p></div>
-        <div class="step reveal"><div class="step-num">04</div><h4>Grow Together</h4><p>Ongoing support, ads and content to keep you growing.</p></div>
-      </div>
-    </div>
-  </section>
+    <!-- CTA -->
+    <section class="cta">
+      <a class="cta-link" href="https://wa.me/919528725759?text=Hi%20WebX%2C%20let%27s%20talk." target="_blank" rel="noopener">
+        <span>Let's talk</span>
+        <span class="cta-arrow">↗</span>
+      </a>
+      <p class="cta-sub">WhatsApp · 95287 25759 · replies in minutes, not days</p>
+    </section>
 
-  <!-- CTA / Contact -->
-  <section class="section cta" id="contact">
-    <div class="glow glow-3"></div>
-    <div class="container cta-inner">
-      <h2 class="reveal">Ready to grow your business?</h2>
-      <p class="reveal">Message us now — we usually reply within minutes.</p>
-      <div class="hero-actions reveal">
-        <a href="https://wa.me/919528725759?text=Hi%20WebX!%20I%20want%20to%20grow%20my%20business." class="btn btn-primary btn-lg" target="_blank" rel="noopener">💬 WhatsApp: 95287 25759</a>
-        <a href="tel:+919528725759" class="btn btn-ghost btn-lg">📞 Call Us</a>
-      </div>
-    </div>
-  </section>
+  </main>
 
-  <!-- Footer -->
   <footer class="footer">
-    <div class="container footer-inner">
-      <a href="#" class="logo">Web<span>X</span></a>
-      <p>Websites · Ads · Reels · Reviews · Chatbots · Animation</p>
-      <p class="muted">© <span id="year"></span> WebX. All rights reserved.</p>
+    <div class="footer-mark" aria-hidden="true">WEBX</div>
+    <div class="footer-meta">
+      <span>© <span id="year"></span> WebX</span>
+      <a href="https://wa.me/919528725759" target="_blank" rel="noopener">WhatsApp ↗</a>
     </div>
   </footer>
-
-  <a href="https://wa.me/919528725759" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
 
   <script src="script.js"></script>
 </body>
