@@ -1,7 +1,9 @@
-pages:
+deploy-pages:
   stage: deploy
   script:
     - echo "Deploying WebX site to GitLab Pages"
+  pages: true
+  environment: production
   artifacts:
     paths:
       - public
