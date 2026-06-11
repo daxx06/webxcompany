@@ -3,12 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>WebX</title>
-  <meta name="description" content="WebX builds websites, runs your ads, and automates your WhatsApp — so customers find you, trust you, and buy from you." />
+  <title>WebX | Premium Websites, Ads &amp; WhatsApp Automation for Businesses</title>
+  <meta name="description" content="WebX builds high-speed websites, manages high-ROAS Meta &amp; Google ads, creates viral short-form videos, and deploys smart WhatsApp chatbots to scale your business." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://webx-12dfae.gitlab.io/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://webx-12dfae.gitlab.io/" />
+  <meta property="og:title" content="WebX | Premium Websites, Ads &amp; WhatsApp Automation" />
+  <meta property="og:description" content="Get high-performance websites, high-ROAS advertising campaigns, viral short video production, and custom WhatsApp automation from a single elite team." />
+  <meta property="og:site_name" content="WebX" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://webx-12dfae.gitlab.io/" />
+  <meta name="twitter:title" content="WebX | Premium Websites, Ads &amp; WhatsApp Automation" />
+  <meta name="twitter:description" content="Get high-performance websites, high-ROAS advertising campaigns, viral short video production, and custom WhatsApp automation from a single elite team." />
+
+  <!-- Preconnect and Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- JSON-LD Structured Data for LocalBusiness/ProfessionalService -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "WebX",
+    "url": "https://webx-12dfae.gitlab.io/",
+    "description": "WebX builds high-performance websites, manages high-ROAS Google & Meta ad campaigns, creates engaging short-form video content, and deploys intelligent WhatsApp chatbots for businesses.",
+    "telephone": "+919528725759",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IN"
+    },
+    "serviceType": [
+      "Web Design & Development",
+      "Digital Marketing & Advertising",
+      "Short Video Production",
+      "WhatsApp Chatbot Automation",
+      "Animation & Motion Design"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -20,7 +61,7 @@
       </svg>
       <span>WEBX</span><sup>®</sup>
     </a>
-    <a class="nav-cta" href="https://wa.me/919528725759?text=Hi%20WebX" target="_blank" rel="noopener">Start a project ↗</a>
+    <a class="nav-cta" id="nav-cta-start" href="https://wa.me/919528725759?text=Hi%20WebX" target="_blank" rel="noopener">Start a project ↗</a>
   </header>
 
   <main id="top">
@@ -46,68 +87,68 @@
 
     <!-- Services index -->
     <section class="services">
-      <p class="kicker">What we do</p>
+      <h2 class="kicker">What we do</h2>
       <ul class="index">
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-websites">
+          <button class="index-head" id="service-btn-websites" aria-expanded="false">
             <span class="num">01</span>
-            <span class="name">Websites</span>
+            <h3 class="name">Websites</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>A site that loads fast and sells faster. Built mobile-first, found on Google, live in days — not months.</p></div>
+          <div class="index-body" id="service-body-websites"><p>A site that loads fast and sells faster. Built mobile-first, found on Google, live in days — not months.</p></div>
         </li>
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-ads">
+          <button class="index-head" id="service-btn-ads" aria-expanded="false">
             <span class="num">02</span>
-            <span class="name">Google &amp; Meta Ads</span>
+            <h3 class="name">Google &amp; Meta Ads</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>Campaigns measured in calls and orders, not impressions. You see exactly where every rupee goes.</p></div>
+          <div class="index-body" id="service-body-ads"><p>Campaigns measured in calls and orders, not impressions. You see exactly where every rupee goes.</p></div>
         </li>
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-video">
+          <button class="index-head" id="service-btn-video" aria-expanded="false">
             <span class="num">03</span>
-            <span class="name">Reels &amp; Short Video</span>
+            <h3 class="name">Reels &amp; Short Video</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>Content people actually stop scrolling for. Shot, cut and posted on a schedule that keeps you visible.</p></div>
+          <div class="index-body" id="service-body-video"><p>Content people actually stop scrolling for. Shot, cut and posted on a schedule that keeps you visible.</p></div>
         </li>
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-reviews">
+          <button class="index-head" id="service-btn-reviews" aria-expanded="false">
             <span class="num">04</span>
-            <span class="name">Reviews</span>
+            <h3 class="name">Reviews</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>More five-star proof, less chasing customers for it. We set up the system; the reviews follow.</p></div>
+          <div class="index-body" id="service-body-reviews"><p>More five-star proof, less chasing customers for it. We set up the system; the reviews follow.</p></div>
         </li>
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-chatbots">
+          <button class="index-head" id="service-btn-chatbots" aria-expanded="false">
             <span class="num">05</span>
-            <span class="name">WhatsApp Chatbots</span>
+            <h3 class="name">WhatsApp Chatbots</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>Replies at 2am without you being awake. Capture leads, answer FAQs, take bookings — automatically.</p></div>
+          <div class="index-body" id="service-body-chatbots"><p>Replies at 2am without you being awake. Capture leads, answer FAQs, take bookings — automatically.</p></div>
         </li>
-        <li class="index-row">
-          <button class="index-head" aria-expanded="false">
+        <li class="index-row" id="service-row-animation">
+          <button class="index-head" id="service-btn-animation" aria-expanded="false">
             <span class="num">06</span>
-            <span class="name">Animation</span>
+            <h3 class="name">Animation</h3>
             <span class="plus">+</span>
           </button>
-          <div class="index-body"><p>Logo stings, explainers and motion graphics that make your brand stick in people's heads.</p></div>
+          <div class="index-body" id="service-body-animation"><p>Logo stings, explainers and motion graphics that make your brand stick in people's heads.</p></div>
         </li>
       </ul>
     </section>
 
     <!-- How -->
     <section class="how">
-      <p class="kicker">How it works</p>
+      <h2 class="kicker">How it works</h2>
       <p class="how-text">Message us. Get a plan and a price within 24 hours. We build, you approve, it ships. <span class="dim">No 40-page proposals. No surprise invoices.</span></p>
     </section>
 
     <!-- CTA -->
     <section class="cta">
-      <a class="cta-link" href="https://wa.me/919528725759?text=Hi%20WebX%2C%20let%27s%20talk." target="_blank" rel="noopener">
+      <a class="cta-link" id="cta-link-whatsapp" href="https://wa.me/919528725759?text=Hi%20WebX%2C%20let%27s%20talk." target="_blank" rel="noopener">
         <span>Let's talk</span>
         <span class="cta-arrow">↗</span>
       </a>
@@ -120,7 +161,7 @@
     <div class="footer-mark" aria-hidden="true">WEBX</div>
     <div class="footer-meta">
       <span>© <span id="year"></span> WebX</span>
-      <a href="https://wa.me/919528725759" target="_blank" rel="noopener">WhatsApp ↗</a>
+      <a id="footer-link-whatsapp" href="https://wa.me/919528725759" target="_blank" rel="noopener">WhatsApp ↗</a>
     </div>
   </footer>
 
