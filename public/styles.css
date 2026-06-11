@@ -142,8 +142,22 @@ a { color: inherit; text-decoration: none; }
   padding: 120px var(--pad);
 }
 .index { list-style: none; }
-.index-row { border-top: 1px solid var(--rule); }
+.index-row {
+  border-top: 1px solid var(--rule);
+  transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
 .index-row:last-child { border-bottom: 1px solid var(--rule); }
+.index-row:hover {
+  background-color: rgba(200, 255, 0, 0.015);
+  border-color: rgba(200, 255, 0, 0.35);
+  transform: scale(1.005) translateY(-2px);
+  z-index: 5;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.index-row:hover + .index-row {
+  border-top-color: transparent;
+}
 .index-head {
   display: flex;
   align-items: baseline;
