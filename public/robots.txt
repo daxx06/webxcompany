@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webx-12dfae.gitlab.io/sitemap.xml
