@@ -1,0 +1,131 @@
+{
+  "summary": {
+    "health_score": 90,
+    "business_type": "Local Service & Digital Agency",
+    "top_findings": [
+      {
+        "severity": "Medium",
+        "category": "Content Quality",
+        "description": "Repetitive phrase structure flagged in copywriting by content_quality.py script (Repetition score: 31/100).",
+        "fix": "Rewrite service accordion descriptions for higher lexical variety."
+      },
+      {
+        "severity": "Medium",
+        "category": "On-Page SEO",
+        "description": "Zero image assets or descriptive image alt tags found on page.",
+        "fix": "Add descriptive portfolio screenshots with alt text to show client work."
+      },
+      {
+        "severity": "Low",
+        "category": "Technical SEO",
+        "description": "Canonical URL points to temporary Gitlab pages instead of custom agency domain.",
+        "fix": "Update canonical links once custom domain is mapped on Vercel."
+      }
+    ],
+    "quick_wins": [
+      {
+        "title": "Lexical Content Refresh",
+        "impact": "High",
+        "effort": "Low",
+        "description": "Rephrase headings and descriptions to resolve repetitive keyword usage."
+      },
+      {
+        "title": "Add Portfolio Images",
+        "impact": "High",
+        "effort": "Medium",
+        "description": "Embed images for Wow Nail Studio and DA Gifts cases with structured image schema."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 95,
+      "what_works": [
+        "robots.txt successfully created and configured with sitemap references.",
+        "sitemap.xml successfully generated and validated.",
+        "Canonical link set correctly (self-referencing).",
+        "SSL configured and viewport tags set for mobile-first indexing."
+      ],
+      "findings": [
+        {
+          "title": "GitLab canonical default",
+          "severity": "Low",
+          "description": "Canonical link currently references Gitlab pages instead of custom domain.",
+          "recommendation": "Update index.html, sitemap.xml, and schema to point to custom domain."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 84,
+      "what_works": [
+        "Zero filler words detected by content_quality.py.",
+        "Zero generic AI patterns detected.",
+        "High information density (0.55)."
+      ],
+      "findings": [
+        {
+          "title": "Repetitive wording",
+          "severity": "Medium",
+          "description": "The copy relies heavily on repeating services names (Websites, Ads, Reels, Chatbots).",
+          "recommendation": "Refactor paragraphs to use synonyms and expand on customer benefit outcomes."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 100,
+      "what_works": [
+        "ProfessionalService schema matches local targeting (Najafgarh, Delhi).",
+        "FAQPage schema successfully added to heads and validates."
+      ],
+      "findings": []
+    },
+    {
+      "name": "AI Search Readiness (GEO)",
+      "score": 90,
+      "what_works": [
+        "llms.txt file successfully configured in public root.",
+        "Explicit bot permissions granted for GPTBot, ClaudeBot, PerplexityBot, and OAI-SearchBot.",
+        "High-citable FAQ blocks added to homepage."
+      ],
+      "findings": [
+        {
+          "title": "No brand mentions external index",
+          "severity": "Medium",
+          "description": "Lack of off-page citations for WebX Solution on high-authority AI sources like Wikipedia, Reddit, or YouTube.",
+          "recommendation": "Build brand presence via case study videos on YouTube and local listings."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Content & Visual Upgrades",
+        "timeframe": "Week 1",
+        "items": [
+          "Refactor body copy to solve repetitive flags.",
+          "Add portfolio screenshots with alt descriptions."
+        ]
+      },
+      {
+        "name": "Phase 2: Domain Mapping",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Map custom domain on Vercel.",
+          "Update canonical links across all configs."
+        ]
+      },
+      {
+        "name": "Phase 3: Authority Building",
+        "timeframe": "Ongoing",
+        "items": [
+          "Acquire citations and listings in Delhi NCR directories.",
+          "Post case studies on YouTube and LinkedIn."
+        ]
+      }
+    ]
+  }
+}

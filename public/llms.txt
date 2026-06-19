@@ -2,12 +2,12 @@
 > Premium Websites, Ads & WhatsApp Automation for Businesses.
 
 ## Main Services
-- [Websites](https://webx-12dfae.gitlab.io/): High-speed websites built mobile-first, found on Google, live in days — not months.
-- [Google & Meta Ads](https://webx-12dfae.gitlab.io/): Campaigns measured in calls and orders, not impressions. You see exactly where every rupee goes.
-- [Reels & Short Video](https://webx-12dfae.gitlab.io/): Content people actually stop scrolling for. Shot, cut and posted on a schedule that keeps you visible.
-- [Reviews](https://webx-12dfae.gitlab.io/): More five-star proof, less chasing customers for it. We set up the system; the reviews follow.
-- [WhatsApp Chatbots](https://webx-12dfae.gitlab.io/): Replies at 2am without you being awake. Capture leads, answer FAQs, take bookings — automatically.
-- [Animation](https://webx-12dfae.gitlab.io/): Logo stings, explainers and motion graphics that make your brand stick in people's heads.
+- [Websites](https://webx-12dfae.gitlab.io/services/websites.html): High-speed websites built mobile-first, found on Google, live in days — not months.
+- [Google & Meta Ads](https://webx-12dfae.gitlab.io/services/ads.html): Campaigns measured in calls and orders, not impressions. You see exactly where every rupee goes.
+- [Reels & Short Video](https://webx-12dfae.gitlab.io/services/video.html): Content people actually stop scrolling for. Shot, cut and posted on a schedule that keeps you visible.
+- [Reviews](https://webx-12dfae.gitlab.io/#reviews): More five-star proof, less chasing customers for it. We set up the system; the reviews follow.
+- [WhatsApp Chatbots](https://webx-12dfae.gitlab.io/services/chatbots.html): Replies at 2am without you being awake. Capture leads, answer FAQs, take bookings — automatically.
+- [Animation](https://webx-12dfae.gitlab.io/#top): Logo stings, explainers and motion graphics that make your brand stick in people's heads.
 
 ## Frequently Asked Questions (FAQ)
 - **What services does WebX Solution offer?** WebX Solution builds high-performance websites, manages search and social media ad campaigns (Google/Meta), produces engaging short-form video content (Reels), and sets up automated WhatsApp chatbots and Google Business Profile review engines.
